@@ -1,0 +1,108 @@
+body {
+    background-color: #a3cebf; /* Change this to your desired color */
+}
+.text-colored-section {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: #0099ff; /* Blue text color */
+}
+.pantry-items {color: #4733ff;
+    background-color: #00fffb;
+    font-size: 30px;
+    display: flexbox; /* Arrange child elements in a row */
+    gap: 20px; /* Space between the sections */
+    width: fit-content; /* Sets the width to fit the content */
+    max-width: 80%; /* Optional: Restrict the maximum width */
+    margin: 0; /* Centers the section if it's not full-width */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+.freezer-items {color: #33ffe0;
+    background-color: #0099ff;
+    font-size: 30px;
+    display: flexbox; /* Arrange child elements in a row */
+    gap: 20px; /* Space between the sections */
+    width: fit-content; /* Sets the width to fit the content */
+    max-width: 80%; /* Optional: Restrict the maximum width */
+    margin: 0; /* Centers the section if it's not full-width */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+.canned {
+    display: flex; /* Arrange child elements in a row */
+    gap: 20px; /* Space between the sections */
+}
+.canned-Items {
+    border: 2px solid #ff5733; /* Orange border */
+    border-width: 10px;
+    padding: 20px; /* Space inside the border */
+    border-radius: 20px; /* Optional rounded corners */
+    background-color: #d76f6f; /* Optional light background */
+    flex: 1; /* Allow the section to grow and fill available space */
+    font-size: 20px;
+    width: fit-content;
+}
+
+.other-section {
+    border: 2px solid #33c1ff; /* Blue border */
+    border-width: 10px;
+    padding: 20px; /* Space inside the border */
+    border-radius: 20px; /* Optional rounded corners */
+    background-color: #e0f7fa; /* Optional light background */
+    flex: 1; /* Allow the section to grow and fill available space */
+    font-size: 20px;
+    width: fit-content;
+}
+
+.canned-Items h3,
+.other-section h3 {
+    font-size: 1.5em; /* Adjust heading size */
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 20px;
+    width: fit-content;
+}
+.grocery-image {
+    width: 300px; /* Adjust the width */
+    height: auto; /* Keeps the aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+    object-fit: cover; /* Ensures the image covers the set width */ 
+    padding: 20px; /* Adjust padding as needed */
+    border: 2px solid #333; /* Optional: Adds a border around the image */
+}
+
+.bullet-list {
+    list-style-type: disc; /* Default bullets */
+    padding-left: 20px; /* Indent the list */
+    margin: 0; /* Remove default margin */
+}
+
+.bullet-list li {
+    margin-bottom: 10px; /* Space between list items */
+}
+.pantry {grid: 20px;
+    gap: 20px;
+}
+.Veggies {
+    border: 2px solid #096404;
+    border-width: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #8af161;
+    flex: 1;
+    font-size: 20px;
+}
+
+.Snacks {
+    border: 2px solid #6713ba;
+    border-width: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #c35ac5;
+    flex: 1;
+    font-size: 20px;
+}
+.freezer-container {
+    display: flex; /* Enables Flexbox layout */
+    gap: 20px; /* Space between Veggies and Snacks */
+    margin-top: 20px; /* Optional: adds space above the container */
+}
